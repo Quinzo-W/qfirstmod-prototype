@@ -1,0 +1,11 @@
+[14:53:10] [Render thread/INFO] Config loaded.
+[14:53:10] [Render thread/INFO] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[14:53:10] [Render thread/INFO] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[14:53:10] [Render thread/INFO] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[14:53:10] [Render thread/INFO] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[14:53:10] [Render thread/INFO] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[14:53:10] [Render thread/INFO] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[14:53:10] [Render thread/INFO] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[14:53:10] [Render thread/INFO] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[14:53:11] [Render thread/INFO] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[14:53:11] [Render thread/INFO] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
