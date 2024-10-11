@@ -1,0 +1,127 @@
+[19:14:14] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.17.1 with Fabric Loader 0.12.12
+[19:14:14] [main/INFO] (FabricLoader) Loading 58 mods:
+	- architectury 2.6.35
+	- cloth-basic-math 0.6.1 via cloth-config2
+	- cloth-config2 5.3.63
+	- fabric 0.42.1+1.17
+	- fabric-api-base 0.4.0+5847535018
+	- fabric-api-lookup-api-v1 1.3.1+5847535018
+	- fabric-biome-api-v1 3.2.2+5847535018
+	- fabric-blockrenderlayer-v1 1.1.6+5847535018
+	- fabric-command-api-v1 1.1.4+5847535018
+	- fabric-commands-v0 0.2.3+5847535018
+	- fabric-containers-v0 0.1.13+5847535018
+	- fabric-content-registries-v0 0.3.1+5847535018
+	- fabric-crash-report-info-v1 0.1.6+5847535018
+	- fabric-dimensions-v1 2.0.13+5847535018
+	- fabric-entity-events-v1 1.3.1+5847535018
+	- fabric-events-interaction-v0 0.4.11+5847535018
+	- fabric-events-lifecycle-v0 0.2.2+5847535018
+	- fabric-game-rule-api-v1 1.0.8+5847535018
+	- fabric-gametest-api-v1 1.0.2+5847535018
+	- fabric-item-api-v1 1.2.5+5847535018
+	- fabric-item-groups-v0 0.3.1+5847535018
+	- fabric-key-binding-api-v1 1.0.5+5847535018
+	- fabric-keybindings-v0 0.2.3+5847535018
+	- fabric-lifecycle-events-v1 1.4.5+5847535018
+	- fabric-loot-tables-v1 1.0.5+5847535018
+	- fabric-mining-level-api-v1 1.0.2+6d0fac4218
+	- fabric-mining-levels-v0 0.1.5+6d0fac4218
+	- fabric-models-v0 0.3.1+5847535018
+	- fabric-networking-api-v1 1.0.14+5847535018
+	- fabric-networking-blockentity-v0 0.2.12+5847535018
+	- fabric-networking-v0 0.3.3+5847535018
+	- fabric-object-builder-api-v1 1.10.11+6d0fac4218
+	- fabric-object-builders-v0 0.7.5+6d0fac4218
+	- fabric-particles-v1 0.2.5+5847535018
+	- fabric-registry-sync-v0 0.7.13+5847535018
+	- fabric-renderer-api-v1 0.4.5+5847535018
+	- fabric-renderer-indigo 0.4.9+5847535018
+	- fabric-renderer-registries-v1 3.2.6+6d0fac4218
+	- fabric-rendering-data-attachment-v1 0.1.6+5847535018
+	- fabric-rendering-fluids-v1 0.2.1+6d0fac4218
+	- fabric-rendering-v0 1.1.7+6d0fac4218
+	- fabric-rendering-v1 1.10.1+6d0fac4218
+	- fabric-resource-loader-v0 0.4.9+5847535018
+	- fabric-screen-api-v1 1.0.5+5847535018
+	- fabric-screen-handler-api-v1 1.1.9+5847535018
+	- fabric-structure-api-v1 1.1.14+5847535018
+	- fabric-tag-extensions-v0 1.2.2+5847535018
+	- fabric-textures-v0 1.0.7+5847535018
+	- fabric-tool-attribute-api-v1 1.3.1+eb76084f18
+	- fabric-transfer-api-v1 1.5.1+6d0fac4218
+	- fabricloader 0.12.12
+	- java 17
+	- minecraft 1.17.1
+	- modmenu 2.0.17
+	- org_joml_joml 1.10.2 via sodium
+	- qfirstmod 1.0.0
+	- roughlyenoughitems 6.5.735
+	- sodium 0.3.4+build.13
+[19:14:17] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/crack/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/7a4ca9d54d9ae564dea0363d668036a8420ed9b8/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=CLIENT
+[19:14:17] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[19:14:17] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[19:14:17] [main/INFO] (Sodium) Loaded configuration file for Sodium: 29 options available, 0 override(s) found
+[19:14:18] [main/INFO] (Sodium) Trying to switch memory allocators to work around memory leaks present with Jemalloc 5.0.0 through 5.2.0 on Windows
+[19:14:18] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
+[19:14:18] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[19:14:23] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:14:24] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-2.3.31.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:112) ~[authlib-2.3.31.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:42) ~[authlib-2.3.31.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:151) ~[authlib-2.3.31.jar:?]
+	at net.minecraft.client.MinecraftClient.createSocialInteractionsService(MinecraftClient.java:670) [minecraft-mapped.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:429) [minecraft-mapped.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:179) [minecraft-mapped.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:608) [fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:77) [fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:77) ~[authlib-2.3.31.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:47) ~[authlib-2.3.31.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:104) ~[authlib-2.3.31.jar:?]
+	... 13 more
+[19:14:24] [Render thread/INFO] (Minecraft) Setting user: Player2
+[19:14:24] [Render thread/INFO] (qfirstmod) Hello Fabric world!
+[19:14:24] [Render thread/INFO] (REI) Config loaded.
+[19:14:24] [Render thread/INFO] (REI) Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[19:14:24] [Render thread/INFO] (REI) Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[19:14:24] [Render thread/INFO] (REI) Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[19:14:24] [Render thread/INFO] (REI) Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[19:14:24] [Render thread/INFO] (REI) Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[19:14:24] [Render thread/INFO] (REI) Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[19:14:24] [Render thread/INFO] (REI) Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[19:14:24] [Render thread/INFO] (REI) Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[19:14:24] [Render thread/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:client.WorldChunkMixin::handler$zib000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[19:14:25] [Render thread/INFO] (REI) Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[19:14:25] [Render thread/INFO] (REI) Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[19:14:25] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
+[19:14:25] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
+[19:14:29] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[19:14:29] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Key Bindings (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Rendering (v1), Mod Menu, Fabric Rendering Data Attachment (v1), Fabric Renderer Registries (v1), Fabric Crash Report Info (v1), Fabric Loot Tables (v1), Fabric Biome API (v1), Cloth Config v5, Fabric API Lookup API (v1), Fabric Command API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Mining Level API (v1), Fabric Rendering Fluids (v1), Fabric Object Builder API (v1), Fabric Containers (v0), Fabric API, Fabric API Base, Fabric Renderer API (v1), Fabric Game Test API (v1), QFirst, Fabric Models (v0), Roughly Enough Items, Fabric Content Registries (v0), Fabric Object Builders (v0), Fabric Rendering (v0), Fabric Commands (v0), Fabric Transfer API (v1), Fabric Textures (v0), Fabric Structure API (v1), Fabric Item Groups (v0), Fabric Events Interaction (v0), Fabric Lifecycle Events (v1), Fabric Registry Sync (v0), Fabric Loader, Fabric Tool Attribute API (v1), Fabric Key Binding API (v1), Fabric Events Lifecycle (v0), Fabric Resource Loader (v0), Fabric Dimensions API (v1), Fabric Networking Block Entity (v0), Fabric Tag Extensions (v0), Fabric Screen Handler API (v1), Fabric Mining Levels (v0), Fabric Networking (v0), Fabric Screen API (v1), Fabric Entity Events (v1), Fabric Networking API (v1), Fabric Renderer - Indigo, Sodium, Fabric Particles (v1))
+[19:14:29] [Render thread/INFO] (qfirstmod) This line is printed by an example mod mixin!
+[19:14:30] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[19:14:30] [Render thread/INFO] (qfirstmod) This line is printed by an example mod mixin!
+[19:14:30] [Render thread/INFO] (qfirstmod) This line is printed by an example mod mixin!
+[19:14:32] [Render thread/INFO] (Minecraft) OpenAL initialized.
+[19:14:32] [Render thread/INFO] (Minecraft) Sound engine started
+[19:14:32] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[19:14:32] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:14:32] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:14:32] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:14:32] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:14:32] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:14:32] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:14:33] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:14:33] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:14:33] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:14:34] [Render thread/INFO] (qfirstmod) This line is printed by an example mod mixin!
+[19:15:03] [Render thread/INFO] (qfirstmod) This line is printed by an example mod mixin!
+[19:15:05] [Render thread/INFO] (Minecraft) Stopping!
